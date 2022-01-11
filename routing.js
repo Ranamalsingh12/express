@@ -17,7 +17,7 @@ app.get('/about', (req ,res) =>  {
 })
 
 app.get('/weather', (req ,res) =>  {
-    res.send(data)
+    res.json(data)
 })
 
 app.listen(port, ()=>{console.log("server is started on port",port)})
